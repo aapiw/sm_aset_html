@@ -244,6 +244,12 @@
                 <div data-i18n="Basic">Data Lokasi </div>
               </a>
                 </li>
+                <li class="menu-item">
+              <a href="cetak-kode.html" class="menu-link">
+                <i class="menu-icon tf-icons bx bx-collection"></i>
+                <div data-i18n="Basic">Cetak Kode QR</div>
+              </a>
+                </li>
               </ul>
             </li>
          </aside>
@@ -255,8 +261,8 @@
 
           <nav
             class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
-            id="layout-navbar"
-          >
+            id="layout-navbar">
+          
             <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
               <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
                 <i class="bx bx-menu bx-sm"></i>
@@ -337,20 +343,40 @@
             <!-- Content -->
 
             <div class="container-xxl flex-grow-1 container-p-y">
-              <div class="card-body">
+
+                        <!-- akhr header tambah- cari aset-->
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Halaman/</span> Data Aset</h4>
+
+              <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+              <!-- Search -->
+              <div class="navbar-nav align-items-center">
+                <div class="nav-item d-flex align-items-center">
+                  
+                  
+                </div>
+              </div>
+              <!-- /Search -->
+
+              <ul class="navbar-nav flex-row align-items-center ms-auto">
+                        
+                <!-- cari aset dan tambah aset -->
+                <div class="card-body">
                           <div class="mb-2">
                             <a href="tambah-aset.html">
                           <button type="submit" class="btn btn-primary">Tambah Aset</button> 
                           </a>
-                         <a href="data-aset.html"> <box-icon name='search' type='solid' ></box-icon><strong>
-                            <i class='bx bxs-search'> Cari Aset</i></a>
-                          </strong>
-
+                         <a href="data-aset.html"> 
+                         <box-icon name='search'></box-icon>
+                         <i class='bx bx-search'>Cari Aset</i>
+                         </a>
                       </div>
-                        </div>
-                        <!-- akhr header tambah- cari aset-->
-              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Halaman/</span> Data Aset</h4>
+                      </div>
+                      </ul>
+                      </div>
 
+
+
+              
               <!-- Basic Layout -->
               <div class="card mb-4">
                   <form>    
@@ -381,9 +407,9 @@
                         <label for="largeSelect" class="form-label">Urutkan</label>
                         <select id="largeSelect" class="form-select form-select-lg">
                           <option>Pilihan</option>
-                          <option value="1">'Nama'</option>
-                          <option value="2">'Tanggal Pembelian'</option>
-                          <option value="3">'Harga'</option>
+                          <option value="1">Nama</option>
+                          <option value="2">Tanggal Pembelian</option>
+                          <option value="3">Harga</option>
                         </select>
                       </div>
                   </div>
@@ -419,8 +445,8 @@
                         <label for="largeSelect" class="form-label">Urutan</label>
                         <select id="largeSelect" class="form-select form-select-lg">
                           <option>Pilihan </option>
-                          <option value="1">'A-Z'</option>
-                          <option value="2">'Z-A'</option>
+                          <option value="1">A - Z</option>
+                          <option value="2">Z - A</option>
                           
                         </select>
                         </div>
@@ -548,7 +574,7 @@
                               class="avatar avatar-xs pull-up"
                               title="Lilian Fuller"
                             >
-                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle" />
+                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle"/>
                             </li>
                           </ul>
                         </td>
