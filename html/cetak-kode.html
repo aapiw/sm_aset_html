@@ -15,7 +15,7 @@
       content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0"
     />
 
-    <title>Beranda SM Aset</title>
+    <title>Cetak Kode QR</title>
 
     <meta name="description" content="" />
 
@@ -135,7 +135,37 @@
             </li>
 
             <!-- Layouts -->
-      
+            <li class="menu-item">
+
+
+              <ul class="menu-sub">
+                <li class="menu-item">
+                  <a href="layouts-without-menu.html" class="menu-link">
+                    <div data-i18n="Without menu">Without menu</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="layouts-without-navbar.html" class="menu-link">
+                    <div data-i18n="Without navbar">Without navbar</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="layouts-container.html" class="menu-link">
+                    <div data-i18n="Container">Container</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="layouts-fluid.html" class="menu-link">
+                    <div data-i18n="Fluid">Fluid</div>
+                  </a>
+                </li>
+                <li class="menu-item">
+                  <a href="layouts-blank.html" class="menu-link">
+                    <div data-i18n="Blank">Blank</div>
+                  </a>
+                </li>
+              </ul>
+            </li>
 
             <li class="menu-header small text-uppercase">
               <span class="menu-header-text">Halaman</span>
@@ -214,6 +244,7 @@
                 <div data-i18n="Basic">Data Lokasi </div>
               </a>
                 </li>
+
                 <li class="menu-item">
               <a href="cetak-kode.html" class="menu-link">
                 <i class="menu-icon tf-icons bx bx-collection"></i>
@@ -270,8 +301,8 @@
                             </div>
                           </div>
                           <div class="flex-grow-1">
-                            <span class="fw-semibold d-block">Dhon Juan</span>
-                            <small class="text-muted">Admin Maagang</small>
+                            <span class="fw-semibold d-block">John Pantau</span>
+                            <small class="text-muted">Admin Magang</small>
                           </div>
                         </div>
                       </a>
@@ -285,9 +316,8 @@
                         <span class="align-middle">Profilku</span>
                       </a>
                     </li>
-                    <li>
-                      
                    
+                    
                     <li>
                       <div class="dropdown-divider"></div>
                     </li>
@@ -307,48 +337,77 @@
           <!-- / Navbar -->
 
           <!-- Content wrapper -->
-         <div class="container-xxl flex-grow-1 container-p-y">
-              <div class="row">
-                <div class="col-lg-8 mb-4 order-0">
-                  <div class="card">
-                    <div class="d-flex align-items-end row">
-                      <div class="col-sm-7">
-                        <div class="card-body">
-                          <h5 class="card-title text-primary">Selamat Datang 🎉</h5>
-                          <p class="mb-4">
-                            DI Sistem Manajemen Aset
-                          </p>
-
-                          <a href="javascript:;" class="btn btn-sm btn-outline-primary">Lihat Selengkapnya</a>
-                        </div>
-                      </div>
-                      <div class="col-sm-5 text-center text-sm-left">
-                        <div class="card-body pb-0 px-0 px-md-4">
-                          <img
-                            src="../assets/img/illustrations/man-with-laptop-light.png"
-                            height="140"
-                            alt="View Badge User"
-                            data-app-dark-img="illustrations/man-with-laptop-dark.png"
-                            data-app-light-img="illustrations/man-with-laptop-light.png"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                
-                            
-                            
-                              
-                              </div>
-                            </div>
+          <div class="content-wrapper">
             <!-- Content -->
 
+            <div class="container-xxl flex-grow-1 container-p-y">
+              <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Halaman/</span> Cetak Kode QR</h4>
 
               <!-- Basic Layout & Basic with Icons -->
               <div class="row">
                 <!-- Basic Layout -->
-             
+                <div class="col-xxl">
+                  <div class="card mb-4">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                      <h5 class="mb-0">Cari Aset</h5>
+                      
+                    </div>
+                    <form action="">
+                    <div class="card-body">
+                      <label for="exampleFormControlSelect1" class="form-label">Kategori</label>
+                        <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+                          <option selected>Pilih Kategori</option>
+                          <option value="1">Biasa</option>
+                          <option value="2">Premium</option>
+                          <option value="3">Biasa</option>
+                        </select>
+                         <div class="mb-3">
+                        <label for="defaultInput" class="form-label">Nama Aset</label>
+                        <input id="defaultInput" class="form-control" type="text" placeholder="Masukkan Nama Aset" />
+                      </div>
+                        
+                       
+                        
+                        <div class="pdl0">
+                          <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Cari</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <!-- Basic with Icons -->
+                <div class="col-xxl">
+                  <div class="card mb-4">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                      <h5 class="mb-0">Daftar Cetak Kode QR</h5>
+                      </div>
+                    <div class="card-body">
+                      <form>
+                        <div class="row mb-3">
+                          <label class="col-sm-2 col-form-label" for="basic-icon-default-fullname"></label>
+                          <div class="col-sm-10">
+                            
+                          </div>
+                        </div>
+                        
+                       
+                      
+                       
+                        <div class="pdl0">
+                          <div class="col-sm-10">
+                            <button type="submit" class="btn btn-primary">Cetak PDF</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            </div>
             <!-- / Content -->
 
             <!-- Footer -->
@@ -358,8 +417,7 @@
                  Sistem Manajemen Aset ©
                   <script>
                     document.write(new Date().getFullYear());
-                  </script>
-                    
+                  </script>        
                 </div>
                 <div>
                   
