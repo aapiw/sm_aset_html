@@ -362,13 +362,34 @@
                 <!-- cari aset dan tambah aset -->
                 <div class="card-body">
                           <div class="mb-2">
-                            <a href="tambah-aset.html">
-                          <button type="submit" class="btn btn-primary">Tambah Aset</button> 
-                          </a>
-                         <a href="data-aset.html"> 
-                         <box-icon name='search'></box-icon>
-                         <i class='bx bx-search'>Cari Aset</i>
-                         </a>
+                             <p class="demo-inline-spacing">
+                        <a class="btn btn-primary me-1" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample">
+                           <box-icon type='solid' name='search-alt-2'></box-icon>
+                           <i class='bx bxs-search-alt-2'></i>
+                        </a>
+
+                        <button class="btn btn-primary me-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
+                          Tambah Aset
+                        </button>
+                      </p>
+                      <div class="collapse show" id="collapseExample" style="">
+                        <div class="d-grid d-sm-flex p-3 border">
+                         
+                          <span>
+                            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has
+                            been the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            galley of type and scrambled it to make a type specimen book. It has survived not only five
+                            centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                            It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum
+                            passages, and more recently with desktop publishing software like Aldus PageMaker including
+                            versions of Lorem Ipsum.It is a long established fact that a reader will be distracted by
+                            the readable content of a page when looking at its layout. The point of using Lorem Ipsum is
+                            that it has a more-or-less normal distribution of letters.
+                          </span>
+
+                        </div>
+                      </div>
+                         
                       </div>
                       </div>
                       </ul>
@@ -471,39 +492,25 @@
                     <thead class="table-table-hover">
                       <tr>
                         <th> Nama Aset</th>
-                        <th>Merek</th>
-                        <th>Kategori</th>
-                        <th>Status</th>
-                        <th>Toko</th>
-                        <th>Penanggung Jawab</th>
-                        <th>Lokasi</th>
-                        <th>Foto</th>
+                        <th>kode</th>
+                        <th>type & merek</th>
+                        <th>penyusutan</th>
+                      
+                        <th>riwayat terakhir</th>
+                        
                         <th>Aksi</th>
                       </tr>
 
                     </thead>
                     <tbody class="table-border-bottom-0">
                       <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i><a href="show-aset.html"> <strong>Meja Kantor</strong></a> </td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Chitose</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Premium</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Aktif</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Subur Berkah</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Thomas Maruf</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Jawa Barat</strong></td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i><a href="show-aset.html"> <strong>Ini Aset pertama</strong></a> </td>
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>1/INV/2023</strong></td>
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ini merek pertama</strong></td>
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>RP 5.000.000,00</strong></td>
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>7 Agustus 2023</strong></td>
+                        
+                        
                         <td>
                           <div class="dropdown">
                             <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
@@ -521,26 +528,12 @@
                         </td>
                       </tr>
                       <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Meja Kelas</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ikea</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Premium</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Aktif</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Subur Berkah</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Thomas Maruf</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Jawa Barat</strong></td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ini Aset kedua</strong></td>
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>2/INV/2023</strong></td>
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ini merek aset kedua</strong></td>
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>RP 3.600.000,00</strong></td>
+                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>8 Agustus 2023</strong></td>
+                       
                         <td>
                           <div class="dropdown">
                             <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
@@ -557,304 +550,16 @@
                           </div>
                         </td>
                       </tr>
-                      <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Meja Kelas</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ikea</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Premium</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Aktif</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Subur Berkah</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Thomas Maruf</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Jawa Barat</strong></td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle"/>
-                            </li>
-                          </ul>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Meja Kelas</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ikea</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Premium</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Aktif</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Subur Berkah</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Thomas Maruf</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Jawa Barat</strong></td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Meja Kelas</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ikea</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Premium</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Aktif</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Subur Berkah</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Thomas Maruf</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Jawa Barat</strong></td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Meja Kelas</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ikea</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Premium</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Aktif</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Subur Berkah</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Thomas Maruf</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Jawa Barat</strong></td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Meja Kelas</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ikea</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Premium</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Aktif</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Subur Berkah</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Thomas Maruf</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Jawa Barat</strong></td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Meja Kelas</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ikea</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Premium</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Aktif</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Subur Berkah</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Thomas Maruf</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Jawa Barat</strong></td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Meja Kelas</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ikea</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Premium</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Aktif</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Subur Berkah</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Thomas Maruf</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Jawa Barat</strong></td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Meja Kelas</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Ikea</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Premium</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Aktif</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Subur Berkah</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Thomas Maruf</strong></td>
-                        <td><i class="fab fa-angular fa-lg text-danger me-3"></i> <strong>Jawa Barat</strong></td>
-                        <td>
-                          <ul class="list-unstyled users-list m-0 avatar-group d-flex align-items-center">
-                            <li
-                              data-bs-toggle="tooltip"
-                              data-popup="tooltip-custom"
-                              data-bs-placement="top"
-                              class="avatar avatar-xs pull-up"
-                              title="Lilian Fuller"
-                            >
-                              <img src="../assets/img/avatars/meja1.png" alt="Avatar" class="rounded-circle" />
-                            </li>
-                          </ul>
-                        </td>
-                        <td>
-                          <div class="dropdown">
-                            <button type="button" class="btn p-0 dropdown-toggle hide-arrow" data-bs-toggle="dropdown">
-                              <i class="bx bx-dots-vertical-rounded"></i>
-                            </button>
-                            <div class="dropdown-menu">
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
-                            </div>
-                          </div>
-                        </td>
-                      </tr>
+                
+                   
+                    
+                     
+                      
+                  
+                    
+                      
                     </tbody>
                   </table>
-                  
                 </div>
               </div>
 
