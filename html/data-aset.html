@@ -346,37 +346,21 @@
 
                         <!-- akhr header tambah- cari aset-->
               <h4 class="fw-bold py-3 mb-4"><span class="text-muted fw-light">Halaman/</span> Data Aset</h4>
-
-              <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
-              <!-- Search -->
-              <div class="navbar-nav align-items-center">
-                <div class="nav-item d-flex align-items-center">
-                  
-                  
-                </div>
-              </div>
-              <!-- /Search -->
-
-              <ul class="navbar-nav flex-row align-items-center ms-auto">
-                        
-                <!-- cari aset dan tambah aset -->
-                <div class="card-body">
-                          <div class="mb-2">
-                             <p class="demo-inline-spacing">
-                        <a class="btn btn-primary me-1" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true" aria-controls="collapseExample">
-                           <box-icon type='solid' name='search-alt-2'></box-icon>
-                           <i class='bx bxs-search-alt-2'></i>
-                           </a>
-                           <button class="btn btn-primary me-1" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="true" aria-controls="collapseExample">
-                          Tambah Aset
-                        </button>
-                        </p>
-                      <div class="collapse show" id="collapseExample" style="">
-                        <div class="d-grid d-sm-flex p-3 border">
-                         
-                          <span>
-                       <div class="card mb-4">  <!-- tabel form -->
-                  <form>    
+<div class="col-12">
+                  <div class="card mb-4">
+                    <h5 class="card-header">Pencarian Aset Dan Penambahan Aset</h5>
+                    <div class="card-body">
+                      
+                      <p class="demo-inline-spacing">
+                        <a class="btn btn-primary me-1 collapsed" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                          <box-icon type='solid' name='search-alt-2'></box-icon><i class='bx bxs-search-alt-2'></i>Cari Aset
+                        </a>
+                        <button class="btn btn-primary me-1 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                          Tambah Aset                    </button>
+                      </p>
+                      <div class="collapse" id="collapseExample" style="">
+                        <div class="card mb-4"> 
+                  <form action="data-aset.html">    
                 <div class="row">
                   <div class="col-xl">
                       <div class="card-header d-flex justify-content-between align-items-center">
@@ -385,7 +369,7 @@
                       <div class="card-body">
                           <div class="mb-3">
                             <label class="form-label" for="basic-default-fullname">Nama Aset</label>
-                            <input type="text" class="form-control" id="basic-default-fullname" placeholder="Masukkan Nama Aset"/>
+                            <input type="text" class="form-control" id="basic-default-fullname" placeholder="Masukkan Nama Aset" />
                           </div>
                           <label for="largeSelect" class="form-label">Lokasi</label>
                         <select id="largeSelect" class="form-select form-select-lg">
@@ -449,34 +433,21 @@
                         </div>
                         <div class="card-body">
                           <div class="mb-1">
-                            <a href="data-aset.html">
-                          <button type="submit" class="btn btn-primary">Cari</button> </a>
+                            
+                          <button type="submit" class="btn btn-primary">Cari</button> 
                       </div>
-                        </div>
+                      </div>
                       
 
-                       </div>  
-                       </form>   
+                </div> 
+               </form>   
 
-                       </div>
-                       </span>
-
+              </div>
                       </div>
-                      </div>
-                         
-                      </div>
-                      </div>
-                      </ul>
-                      </div>
-
-
-
-              
-          
-              
-
-              <!-- Tabel nama aset -->
-              <div class="card">
+                    </div>
+                  </div>
+                </div> 
+                <div class="card">
                 <h5 class="card-header">Tabel Aset</h5>
                 <div class="table-responsive text-nowrap">
                   <table class="table">
@@ -554,7 +525,28 @@
                 </div>
               </div>
 
-            </div>
+              </div>
+
+
+                      </div>
+
+                      </div>
+
+                         
+                      </div>
+
+                      </div>
+                      
+            
+
+
+
+              
+          
+              
+
+              <!-- Tabel nama aset -->
+            
             <!-- / Content -->
 
             <!-- Footer -->
