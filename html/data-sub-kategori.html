@@ -393,11 +393,9 @@
                             </button>
                             <div class="dropdown-menu">
                               <a class="dropdown-item" href="edit-data-sub-kategori.html"
-                                ><i class="bx bx-edit-alt me-1"></i> Edit</a
-                              >
-                              <a class="dropdown-item" href="javascript:void(0);"
-                                ><i class="bx bx-trash me-1"></i> Delete</a
-                              >
+                                ><i class="bx bx-edit-alt me-1"></i> Edit</a>
+                              
+                               <button type="button-primary" data-bs-toggle="modal" data-bs-target="#modalToggle"><i class="bx bx-trash me-1"></i> Delete</a></button>
                             </div>
                           </div>
                         </td>
@@ -428,7 +426,42 @@
                   </table>
                   </div>               
                  </div>
-                 
+                 <!-- ----delete dropdown --->
+                 <div class="mt-3 dropdown-item">
+                        <div class="modal fade" id="modalToggle" aria-labelledby="modalToggleLabel" tabindex="-1" style="display: none" aria-hidden="true">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="modalToggleLabel">Yakin Menghapus ?</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">Tindakan ini akan menghapus data tersebut.</div>
+                              <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-target="#modalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">
+                                  Hapus
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Modal 2-->
+                        <div class="modal fade" id="modalToggle2" aria-hidden="true" aria-labelledby="modalToggleLabel2" tabindex="-1">
+                          <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="modalToggleLabel2">Modal 2</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body">Hide this modal and show the first with the button below.</div>
+                              <div class="modal-footer">
+                                <button class="btn btn-primary" data-bs-target="#modalToggle" data-bs-toggle="modal" data-bs-dismiss="modal">
+                                  Back to first
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
                  
                     
                 <!--/ Total Revenue -->
@@ -438,7 +471,7 @@
               <div class="row">
                 
               </div>
-              <div class="card-body pdl0">
+              <div class="card-body pdl0 pdt0rem5">
                           <div class="mb-2">
                             <a href="tambah-sub-kategori.html"> 
                           <button type="submit" class="btn btn-primary">Tambah Sub Kategori</button> </a>
