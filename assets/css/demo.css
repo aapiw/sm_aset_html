@@ -110,3 +110,22 @@
   padding-left: 0;
 }
 
+.mb-1.pdl1 {
+  padding-left: 0.8rem;
+}
+
+.col-sm-20.pdt1 {
+  padding-top: 1rem;
+}
+
+.card-body.pdl0.pdt1r {
+  padding-top: 0rem;
+  }
+  .mb-2.pdl1r {
+    padding-left: 1.5rem;
+    }
+
+    .card-body.pdt1rm {
+      padding-top: 0rem;
+
+     }
