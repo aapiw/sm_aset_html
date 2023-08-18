@@ -439,8 +439,11 @@
                         <p><strong>Kondisi</strong>   97%</p>
                         <p><strong>Kelengkapan</strong>  100%</p>
                         <p><strong>Keterangan</strong>    Ini keterangan riwayat aset pertama</p>
+                  
 
                       </p>
+
+                  
                     </div>
 
                   </div>
@@ -458,6 +461,68 @@
                       </p>
                     </div>
                     
+
+                    
+                  </div>
+                  <div class="card mb-4">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                      <h5 class="mb-0">Form Tambah Riwayat</h5>
+                      
+                    </div>
+                    <div class="card-body">
+                      <form action="#">
+                        <div class="mb-3 row">
+                        <label for="html5-date-input" class="col-md-2 col-form-label">Sejak Tanggal</label>
+                        <div class="col-md-10">
+                          <input class="form-control" type="date" value="2021-06-18" id="html5-date-input">
+                        </div>
+                      </div>
+                        <div class="row mb-3">
+                          <label class="col-sm-2 col-form-label" for="basic-default-company">Penanggung Jawab</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="basic-default-company" placeholder="Masukkan Penanggung Jawab">
+                          </div>
+                          </div>
+                          <div class="row mb-3">
+                          <label class="col-sm-2 col-form-label" for="basic-default-company">Lokasi</label>
+                          <div class="col-sm-10">
+                            <input type="text" class="form-control" id="basic-default-company" placeholder="Masukan lokasi">
+                          </div>
+                          </div>
+                          <div class="mb-3 row">
+                        <label for="html5-number-input" class="col-md-2 col-form-label">Jumlah (Unit)</label>
+                        <div class="col-md-10">
+                          <input class="form-control" type="number" value="18" id="html5-number-input">
+                        </div>
+                      </div>
+                      <div class="mb-3 row">
+                        <label for="html5-number-input" class="col-md-2 col-form-label">Kondisi (%)</label>
+                        <div class="col-md-10">
+                          <input class="form-control" type="number" value="18" id="html5-number-input">
+                        </div>
+                      </div><div><div class="mb-3 row">
+                        <label for="html5-number-input" class="col-md-2 col-form-label">Kelengkapan (%)</label>
+                        <div class="col-md-10">
+                          <input class="form-control" type="number" value="18" id="html5-number-input">
+                        </div>
+                      </div>
+
+                    </div>
+                      <div>
+                        <label for="exampleFormControlTextarea1" class="form-label">Keterangan</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+
+
+
+                        
+                        <div class="row justify-content-end">
+                          <div class="col-sm-20 pdt1">
+                            <button type="submit" class="btn btn-primary">Simpan </button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
                   </div>
                           </div>
                           <div class="tab-pane fade" id="horizontal-profile">
@@ -469,20 +534,114 @@
                       </p>
                     </div>
                   </div>
+                  <div class="card mb-4">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                      <h5 class="mb-0">Form Tambah Agenda</h5>
+                      
+                    </div>
+                    <div class="card-body">
+                      <form action="#">
+                        
+                      <div class="mb-3">
+                        <label for="exampleFormControlSelect1" class="form-label">Tipe</label>
+                        <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+                          <option selected="">Berkala: Mingguan</option>
+                          <option value="1">Berkala: Bulanan </option>
+                          <option value="2">Berkala: Tahunan</option>
+                          <option value="3">Tanggal Tertentu</option>
+                        </select>
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlSelect1" class="form-label">Setiap Hari</label>
+                        <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+                          <option selected="">Senin</option>
+                          <option value="1">Selasa</option>
+                          <option value="2">Rabu</option>
+                          <option value="3">Kamis</option>
+                          <option value="4">Jum'at</option>
+                          <option value="5">Sabtu</option>
+                          <option value="6">Minggu</option>
+                        </select>
+                      </div>
+                          
+                          
+                     
+                      <div>
+                        <label for="exampleFormControlTextarea1" class="form-label">Keterangan</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+
+
+
+                        
+                        <div class="row justify-content-end">
+                          <div class="col-sm-20 pdt1">
+                            <button type="submit" class="btn btn-primary">Simpan </button>
                           </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                          </div>
+                          <!-- batas agenda -->
                           <div class="tab-pane fade" id="horizontal-messages">
                              <div class="card mb-4">
                     <div class="card-body">
                       <p class="card-text">
                         <strong>07 Augustus 2023</strong> <p> Rp 50.000,00  Ini keterangan aset pertama (pengeluaran)</p>  
                         <p><strong>08 Agustus 2023</strong>  </p>  Rp 100.000,00  Ini keterangan keuangan aset pertama</p>
-                        <p> ---------------------------</p>
+                        <p>_____________________________________</p>
                         <p>Total Pengeluaran <strong>Rp 50.000,00</strong><p>Total Pemasukan <strong>Rp 100.000,00</strong></p>
                         <p>Selisih <strong>Rp 50.000,00</strong></p>
 
 
 
                       </p>
+                    </div>
+                  </div>
+                  <div class="card mb-4">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                      <h5 class="mb-0">Form Tambah Keuangan</h5>
+                      
+                    </div>
+                    <div class="card-body">
+                      <form action="#">
+                         <div class="mb-3">
+                        <label for="exampleFormControlSelect1" class="form-label">Pengeluaran</label>
+                        <select class="form-select" id="exampleFormControlSelect1" aria-label="Default select example">
+                          <option selected="">Pengeluaran</option>
+                          <option value="1">Pemasukan </option>
+                         
+                        
+                        </select>
+                      </div>
+                        <div class="mb-3 row">
+                        <label for="html5-date-input" class="col-md-2 col-form-label">Sejak Tanggal</label>
+                        <div class="col-md-10">
+                          <input class="form-control" type="date" value="2021-06-18" id="html5-date-input">
+                        </div>
+                      </div>
+                        <div class="input-group input-group-merge">
+                        <span class="input-group-text">Rp</span>
+                        <input type="text" class="form-control" placeholder="Nominal" aria-label="Amount (to the nearest dollar)">
+                        <span class="input-group-text">0.00</span>
+                      </div>
+                         
+                  
+                      <div>
+                        <label for="exampleFormControlTextarea1" class="form-label">Keterangan</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+
+
+
+                        
+                        <div class="row justify-content-end">
+                          <div class="col-sm-20 pdt1">
+                            <button type="submit" class="btn btn-primary">Simpan </button>
+                          </div>
+                        </div>
+                      </form>
                     </div>
                   </div>
                           </div>
@@ -493,6 +652,38 @@
                         <strong>04 Aug 2023</strong> <p>Ini kejadian Jurnal aset pertama</p>
                         
                       </p>
+                    </div>
+                  </div>
+                  <div class="card mb-4">
+                    <div class="card-header d-flex align-items-center justify-content-between">
+                      <h5 class="mb-0">Form Tambah Jurnal</h5>
+                      
+                    </div>
+                    <div class="card-body">
+                      <form action="#">
+                        <div class="mb-3 row">
+                        <label for="html5-date-input" class="col-md-2 col-form-label"> Tanggal</label>
+                        <div class="col-md-10">
+                          <input class="form-control" type="date" value="2021-06-18" id="html5-date-input">
+                        </div>
+                      </div>
+                       
+                         
+                         
+                      <div>
+                        <label for="exampleFormControlTextarea1" class="form-label">Kejadian</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+
+
+
+                        
+                        <div class="row justify-content-end">
+                          <div class="col-sm-20 pdt1">
+                            <button type="submit" class="btn btn-primary">Simpan </button>
+                          </div>
+                        </div>
+                      </form>
                     </div>
                   </div>
                           </div>
